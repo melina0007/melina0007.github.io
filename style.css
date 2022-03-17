@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+img{
+    
+    max-width: 100%;
+    height: auto;
+}
+/* HEADER */
+
+header{
+    max-width: 100%;
+    height: 124px;
+    
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav a {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+nav{
+    width: 439px;
+    margin-right: 161px;
+}
+
+.logo{
+    margin-left: 161px;
+}
+
+
+/* IMAGE PRINCIPALE */
+.imagePrin{
+    width: 100%;
+}
+
+
+
+/* icone */
+
+.icone{
+    height: 190px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* H2 */
+
+h2{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* ARTICLE2 */
+
+.article2{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texteLum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 418px;
+    margin: 117px;
+}
+
+.texteLum img{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.texteLum p{
+    margin-top: 26px;
+    line-height: 170%;
+    font-size: 20px;
+}
+
+/* ARTICLE3 */
+
+#article3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texteDépo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 418px;
+    margin: 117px;
+}
+
+.texteDépo img{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.texteDépo p{
+    margin-top: 26px;
+    line-height: 170%;
+    font-size: 20px;
+}
+
+
+/* FOOTER */
+
+footer{
+    max-width: 100%;
+    height: 412px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#suivezNous{
+    border: solid 4px black;
+    
+    
+}
+
+#textf{
+    width: 476px;
+    height: 321px;
+    border: solid 4px black;
+    padding-right: 20px;
+}
+
+#textf a{
+    
+}
+
+
+
