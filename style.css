@@ -189,24 +189,41 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 45px;
+} 
+
+#suivezNous {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#suivezNous{
-    border: solid 4px black;
-    
+.suivre{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.icone2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
     
 }
+
 
 #textf{
     width: 476px;
     height: 321px;
-    border: solid 4px black;
-    padding-right: 20px;
+    
 }
 
-#textf a{
-    
+#textf p{
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
